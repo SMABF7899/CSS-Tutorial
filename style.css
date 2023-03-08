@@ -51,3 +51,28 @@ header div .color-red {
 #third .my-text.color-red {
     font-style: normal;
 }
+
+/* Attribute selectors */
+a[href] {
+    color: pink;
+}
+
+a[href="https://smabf.ir"] {
+    color: green;
+}
+
+a[href*="com"] {
+    color: red;
+}
+
+a[href$="com"] {
+    font-weight: bold;
+}
+
+li[class="item"] a {
+    font-style: italic;
+}
+
+li[class~="item"] a {
+    font-style: italic;
+}
