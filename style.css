@@ -26,3 +26,28 @@ p {
 .background-yellow {
     background-color: yellow;
 }
+
+/* Dependent and multilevel selectors */
+.color-red.background-yellow {
+    font-weight: bold;
+}
+
+#second.bold {
+    font-weight: bold;
+}
+
+div.background-yellow {
+    font-weight: bold;
+}
+
+header .color-red {
+    font-style: italic;
+}
+
+header div .color-red {
+    font-style: normal;
+}
+
+#third .my-text.color-red {
+    font-style: normal;
+}
