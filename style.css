@@ -8,3 +8,12 @@ p {
 }
 
 /*Commenting in CSS*/
+
+/* Selecting elements with Class and ID */
+.text {
+    color: red;
+}
+
+#first {
+    background-color: yellow;
+}
