@@ -17,3 +17,12 @@ p {
 #first {
     background-color: yellow;
 }
+
+/* Combined classes */
+.color-red {
+    color: red;
+}
+
+.background-yellow {
+    background-color: yellow;
+}
