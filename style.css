@@ -182,3 +182,17 @@ li {
 .MyHeader {
     font-weight: bold;
 }
+
+/* Inheritance of properties */
+html {
+    color: red;
+    font-size: 20px;
+}
+
+#MyP7 {
+    color: blue;
+}
+
+#MyP7 {
+    color: orchid;
+}
