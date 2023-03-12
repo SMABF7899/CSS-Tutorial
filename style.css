@@ -141,3 +141,10 @@ p::first-line {
 li {
     padding-bottom: 10px;
 }
+
+/* Getting to know Borders */
+#MyP2 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+}
